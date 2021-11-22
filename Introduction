@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Get to know Amulya</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Verdana;
+  padding: 10px;
+  background: #f1f1f1;
+}
+ 
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+ 
+.header h1 {
+  font-size: 50px;
+}
+ 
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+ 
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+ 
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+ 
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+ 
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+ 
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+ 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+ 
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+ 
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+form{
+    background-color: red;
+    color: rgba(251, 255, 0, 0.911);
+}
+input{
+    background-color:rgb(0, 255, 136);
+    color: rgb(117, 0, 252); border-radius: 10px;border-color: darkblue;border-width: 10px;
+}
+</style>
+</head>
+<body>
+ 
+<div class="header">
+  <h1>Who is Amulya?</h1>
+  <p>All about Amulya</p>
+</div>
+ 
+<div class="topnav">
+  <a href="Class27.html">Introduction</a>
+  <a href="Class27_2.html">Hobbies</a>
+  <a href="Class27_3.html">Social Media</a>
+  <a href="Class27_4.html">Form</a>
+</div>
+ 
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Basic Information</h2>
+      <h5>Last updated - 11/18/2021</h5>
+      <div class="fakeimg" style="height:200px;">Amulya Pratap Singh is a 12 year old that lives in Plano,Texas. He attends Rice Middle school. He is learning how to create a website and is also learning how to speak Español. His elementry school was Andrews Elementary School. He moved to Unites States from India when he was 8 years old, and he is been living in US about 4 years now.</div>
+    </div>
+    <div class="card">
+      <h2>Picture of Amulya. </h2>
+      <h5>Here is a picture of Amulya.</h5>
+      <div class="fakeimg" style="height:200px;"><center><img src="AmulyaPic.jpg" width="138"></center></div>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>IMPORTANT</h2>
+      <div class="fakeimg" style="height:100px;">Please visit other pages to know more about AMULYA.</div>
+      <p>Click on <a href="Class27_4.html">here</a> to fill out a form</p>
+    </div>
+    <div class="card">
+      <h3>Fun Fact</h3>
+      <p>Hot water will turn into ice faster than cold water also the strongest muscle in the body is the tongue.</p>
+    </div>
+  </div>
+</div>
+ 
+<div class="footer">
+  <h2>© Amulya Industries</h2>
+</div>
+ 
+</body>
+</html>
